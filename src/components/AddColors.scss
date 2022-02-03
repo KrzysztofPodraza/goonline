@@ -1,0 +1,43 @@
+.color_input {
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.addColor_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.colorModeButtons_container {
+  margin: auto;
+  margin-top: 2rem;
+}
+.rgbInput_container {
+  margin: auto;
+}
+
+.addColor_submitButton {
+  border: 0;
+  background-color: #54bab9;
+  color: #fafafa;
+  margin: auto;
+  font-size: 1.2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+}

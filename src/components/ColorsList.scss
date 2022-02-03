@@ -1,0 +1,51 @@
+.colorsList_container {
+  display: flex;
+  flex-direction: column;
+}
+.filterOptions_title {
+  margin-top: 3rem;
+
+  text-align: center;
+}
+.filterOption_container {
+  margin: auto;
+}
+.colorCard_container {
+  position: relative;
+  margin: auto;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  width: 50%;
+  background-color: #fbfbfb;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+}
+.colorNames_container {
+  display: flex;
+}
+.color_box {
+  margin: auto;
+}
+.colorsFormatType {
+  margin: 0;
+  padding: 0;
+}
+.colorValue {
+  padding: 0;
+  margin: 0;
+}
+.colorPreview {
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 70%;
+  border-radius: 10px;
+  height: 2rem;
+}
+.delete_color {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 1.5rem;
+  color: gray;
+}
